@@ -11,6 +11,20 @@ body {
     line-height: 1.6;
     background-color: #f0f0f0;
 }
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Sesuaikan margin sesuai kebutuhan */
+}
+
+.avatar {
+    width: 90px; /* Sesuaikan ukuran avatar */
+    height: 150px; /* Sesuaikan ukuran avatar */
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    object-fit: cover; /* Mengatur agar gambar tidak terdistorsi */
+    border: 2px solid #fff; /* Opsi: tambahkan border jika diinginkan */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opsi: tambahkan efek bayangan */
+}
 
 .container {
     max-width: 960px;
